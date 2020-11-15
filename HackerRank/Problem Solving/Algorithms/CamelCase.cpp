@@ -1,0 +1,12 @@
+int camelcase(string s)
+{
+  int count = 0;
+  for (int i = 0; i < s.size(); i++)
+  {
+    if (s[i] < 91)
+    {
+      count++;
+    }
+  }
+  return count + 1;
+}
